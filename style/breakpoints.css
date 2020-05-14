@@ -1,0 +1,113 @@
+@media only screen and (max-width: 1030px) {
+
+  h1 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+
+  .hero-img {
+    width: 40%;
+  }
+
+  .work-item-img {
+    width: 31%;
+  }
+}
+
+/* M Breakpoint 760px */
+
+@media only screen and (max-width: 760px) {
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-img {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .hero-img-large {
+    display: none;
+  }
+
+  .hero-img-small {
+    display: flex;
+    width: 100%;
+  }
+
+
+  .hero-text-container {
+    width: 100%;
+  }
+
+  .nav-wrapper {
+    display: none;
+  }
+
+  .mobile-nav {
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #005AA8;
+    left: 0;
+    top: 0;
+  }
+
+  .nav-item {
+    font-size: 32px;
+    color: white;
+    padding: 16px 24px;
+  }
+
+  .nav-item a {
+    color: white;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .work-item-img {
+    width: 48%;
+  }
+
+  .exhibit-container {
+    margin-top: 120px;
+    flex-wrap: wrap;
+  }
+
+  .exhibit-photo-container {
+    width: 100%;
+  }
+
+  .exhibit-text-container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .article-img-text {
+    flex-wrap: wrap;
+  }
+
+  .article-img-large {
+    max-width: 100%;
+    padding: 5%;
+    margin-right: 0;
+  }
+
+  .article-text-wrapper {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .article-container {
+    max-width: 90vw;
+  }
+}
